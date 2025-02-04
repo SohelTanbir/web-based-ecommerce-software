@@ -1,0 +1,92 @@
+.product-add-form h2{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.product-add-form input,
+.submit-btn{
+    border: none;
+    outline:none;
+    margin-bottom:2.5rem;
+}
+.product-add-form input,
+.product-add-form textarea,
+.product-add-form select, 
+.product-add-form  .check-box input{
+    width:49%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+    outline: none;
+    padding:1rem 1.5rem;
+    margin-bottom: 2rem;
+    border: .1rem solid #eee;
+    transition: .5s ease-in;
+}
+
+.check-box{
+    width: 48%;
+}
+.mr-2p{
+    margin-right: 2%;
+}
+.product-add-form input:focus,
+.product-add-form textarea:focus,
+.product-add-form select:focus{
+    border: .1rem solid #550597;
+    transition: .5s;
+}
+.product-add-form textarea{
+    width: 100%;
+    height: 15rem;
+   resize: none;
+}
+.product-add-form::placeholder{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+.product-add-form input[type="file"]{
+    width: 100%;
+    padding: .7rem 1.5rem;
+}
+.product-add-form input[type="file"]::-webkit-file-upload-button{
+    border: none;
+    padding: .3rem 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    background: #465487;
+}
+.product-add-form button{
+        display: block;
+        margin-left: auto;
+        font-size: 1.6rem;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: .3rem;
+        padding: 1rem 1.5rem;
+        background: #465487;
+}
+.uploaded-image-preview{
+    width: 20%;
+    height: 18rem;
+    overflow: hidden;
+}
+.uploaded-image-preview img{
+    width: 100%;
+    height: 100%;
+}
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+ /*medium device*/
+ @media all and (max-width:768px){
+    /*add product*/
+    .product-add-form input, textarea, select, .check-box input {
+        width: 100%;
+    }
+ }

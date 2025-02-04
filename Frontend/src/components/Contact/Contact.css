@@ -1,0 +1,93 @@
+.contact{
+    width: 100%;
+}
+.contact-box{
+    width:60%;
+    margin:5% auto 0;
+    padding: 2rem 1.5rem;
+}
+.contact-box h4{
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #817f7f;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.contact-box input, textarea{
+    width:100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+    outline: none;
+    padding:1rem 1.5rem;
+    margin-bottom: 2.5rem;
+    border: .1rem solid #eee;
+    transition: .5s ease-in;
+}
+.contact-box input:focus{
+    border: .1rem solid #550597;
+}
+.contact-box textarea:focus{
+    border: .1rem solid #550597;
+}
+.contact-box .w-50{
+    display: flex;
+}
+.contact-box .w-50 input{
+    width: 49%;
+}
+.contact-box .w-50 input:first-child{
+    margin-right: 2%;
+}
+.contact-box textarea{
+    height: 15rem;
+    resize: none;
+}
+.contact-box ::placeholder{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+.contact-box button{
+    display: block;
+    margin-left: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 1rem 1.5rem;
+    background: #ff6000;
+}
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .contact-box {
+        width: 70%;
+    }
+}
+/*medium device*/
+@media all and (max-width:768px){
+    .contact-box {
+        width: 80%;
+    }
+}
+/*small device*/
+@media all and (max-width:576px){
+    .contact-box {
+        width: 100%;
+    }
+    .contact-box .w-50{
+      display: initial;
+    }
+    .contact-box .w-50 input{
+        width: 100%;
+    }
+}

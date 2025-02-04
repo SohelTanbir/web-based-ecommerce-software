@@ -1,0 +1,79 @@
+.message-main{
+          width: 100%;
+          padding: 2rem;
+}
+.message-header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: .5rem;
+          padding-top: 1rem;
+          border-bottom: .1rem solid #eee;
+}
+.message-header h2{
+          font-size: 2rem;
+          font-weight: 600;
+          color: #000;
+}
+
+.message-container {
+    width: 100%;
+    padding: 2rem 0;
+    overflow: auto;
+}
+.message-table table{
+          width: 100%;
+          text-align: center;
+          border-collapse: collapse;
+}
+.message-table tr,td{
+          font-size: 1.6rem;
+          font-weight: 400;
+          padding:1rem .5rem;
+ }
+.message-table th{
+          font-weight: 600;
+          color: #160a5a;
+          text-transform: capitalize;
+          background: #c2c2c2;
+          padding:.5rem 0;
+}
+.message-table tr:nth-child(odd){
+          background: #f1f1f1;
+}
+.message-container table img{
+          width: 5rem;
+          height: 5rem;
+          object-fit: cover;
+}
+.message-container .action-btn{
+          font-size: 1.8rem;
+          color: #160a5a;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background: transparent;
+}
+.message-container .action-btn:hover{
+          color: #4528eb;
+}
+.message-container .delete-btn:hover{
+          color: red;
+}
+      /*
+      ------------------------------------------------------------
+      --------- Responsive CSS For Contact Page -------------
+      ------------------------------------------------------------
+      */
+      /*large device*/
+      @media all and (max-width:1199px){
+        .message-main {
+            overflow:scroll;
+        }
+        .message-container table {
+            min-width: 90rem;
+            width: 100%;
+        }
+       }
+
+      

@@ -1,0 +1,75 @@
+.single-product {
+    position: relative;
+    width: 19%;
+    margin: .5rem auto;
+    height: 28rem;
+    cursor: pointer;
+    box-shadow: 0 0 #000, 0 0 #000, 0 0 #000,  0px 0px 6px rgba(79,95,120,.1);
+    background: #fff;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+.single-product img {
+    width: 100%;
+    max-height: 15rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem .5rem 0 0;
+    background: #E7EAEF;
+}
+.single-product .product-name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: .5rem .8rem;
+    line-height: 2rem;
+}
+.single-product .product-price{
+    font-weight:400;
+    margin:.5rem .8rem;
+}
+.single-product .rating{
+    font-weight: 400;
+    color: #dfb839;
+    margin:.5rem .8rem;
+}
+.single-product .plus-btn {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    border: none;
+    outline: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    color: #fff;
+    background: #FF6000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+.single-product .plus-btn:hover{
+    background: #e75901;
+    color: #e8e8e8;
+}
+
+/*
+----------------------------------------------------
+--------------- Responsive CSS -------------------
+-----------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    /*product*/
+    .single-product {
+        width: 32%;
+    }
+}
+/*small device*/
+@media all and (max-width:576px){
+    /*product*/
+    .single-product {
+        width: 47%;
+    }
+}

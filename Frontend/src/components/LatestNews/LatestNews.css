@@ -1,0 +1,82 @@
+.latestNews{
+    width:100%;
+    background:url('../../images/latest-news.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding:10rem 0;
+   margin-top:8rem;
+}
+.latestNews .row{
+    justify-content: space-around;
+}
+.latestText{
+    width:50%;
+}
+.latestText h2{
+    font-size:4rem;
+    font-weight: 600;
+}
+.latestText p{
+    font-size:2.2rem;
+    font-weight:400;
+}
+.latestInput{
+    width:40%;
+    position: relative;
+}
+.latestInput input, .latestInput button{
+    border: none;
+    outline:none;
+    padding:1.6rem 3rem;
+    border-radius:3rem;
+}
+.latestInput input{
+    width: 100%;
+}
+.latestInput button{
+    position: absolute;
+    background: #FF6000;
+    color:#fff;
+    right:0 ;
+    cursor:pointer;
+}
+
+/*
+----------------------------------------------------
+--------------- Responsive CSS -------------------
+-----------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .latestInput input, .latestInput button {
+        padding: 1.5rem 2rem;
+    }
+    .latestText h2 {
+        font-size: 3.5rem;
+    }
+}
+/*medium device*/
+@media all and (max-width:768px){
+    .latestText {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .latestInput {
+        width: 80%;
+    }
+    .latestInput button {
+        top: -2px;
+        padding: 1.4rem 5rem!important;
+    }
+}
+/* small device*/
+@media all and (max-width:480px){
+    .latestInput button {
+        top: -2px;
+        padding: 1.4rem 1.5rem!important;
+    }
+    .latestText h2 {
+        font-size: 2.5rem;
+    }
+}

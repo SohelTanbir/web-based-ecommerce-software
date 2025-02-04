@@ -1,0 +1,45 @@
+.footer{
+    width:100%;
+    background:#291f32;
+    padding: 5rem 0 2rem;
+}
+.single-footer{
+    width: 30%;
+}
+.single-footer img{
+    height:10rem;
+}
+.single-footer h3 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+}
+.single-footer ul li{
+    padding-bottom:.5rem;
+}
+.single-footer ul li a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #c7c7c7;
+}
+
+/*
+----------------------------------------------------
+--------------- Responsive CSS -------------------
+-----------------------------------------------------
+*/
+/*small device*/
+@media all and (max-width:768px){
+    .single-footer {
+        width: 40%;
+        margin-top: 3rem;
+    }
+}
+/*Extra small device*/
+@media all and (max-width:480px){
+    .single-footer {
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,140 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 1.5rem 2.5rem;
+    background: #fff;
+    box-shadow:  .1rem .1rem .5rem #d1c5e3;
+    z-index: 10;
+}
+.logo{  
+    text-transform: uppercase;
+    font-weight:700;
+}
+.logo span{
+    color:#FF6000;
+}
+.header .menu{
+    margin-left: 1rem;
+}
+.header .searchbar{
+    flex-grow: 1;
+}
+.header .search-bar{
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 .5rem;
+}
+.header .login-btn button{
+    border: none;
+    outline: none;
+    padding: .6rem 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    background: #FF6000;    
+}
+.cart-icon{
+    position: relative;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.cart-icon a{
+   color: #877373;
+}
+.cart-icon .cart-total {
+    position: absolute;
+    top: -.4rem;
+    right: -1.5rem;
+    font-size: 1.3rem;
+    color: #fff;
+    background: #FF6000;
+    min-width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-radius: 50%;
+    text-align: center;
+}
+.header .bars-icon {
+    display: none;
+    font-size: 1.8rem;
+    margin-left: 2.5rem;
+    color: #877373;
+ }
+ .header-bottom-search{
+    display: none;
+ }
+ .loggedin-user{
+    width: 3rem;
+    margin-left: 2.5rem;
+ }
+ .loggedin-user img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ /*Responsive CSS*/
+ /*medium device*/
+ @media all and (max-width:767px){
+    .header{
+        background: #FF6000;
+    }
+    .header .logo a{
+      color: #fff;
+    }
+    .header .search-bar{
+       display: none;
+    }
+    .header-top{
+        display: none;
+    }
+    .header .login-btn button {
+        padding: .5rem 1.5rem;
+        color: #000;
+        background: #ffffff;
+        font-weight: 500;
+    }
+    .cart-icon a {
+        color: #fff;
+    }
+    .header .bars-icon {
+        display: block;
+        color: #fff;
+    }
+    .header-bottom-search {
+        margin: 1.5rem 0 0;
+        display: block;
+    }
+    .header-bottom-search .search-box{
+        max-width: 100%;
+    }
+
+ }
+
+
+ /*small device*/
+ @media all and (max-width:767px){
+    .logo span{
+        color:#465487;
+    }
+ }
+ @media all and (max-width:575px){
+    .header{
+        padding: 1rem;
+    }
+    .header .search-box input {
+        padding: .6rem 1rem;
+        border-radius: 1rem;
+    }
+    .header  .search-box  .search-icon {
+        right: 1rem;
+        top: .9rem;
+    }
+    .header-bottom-search {
+        margin: .7rem 0 0;
+    }
+ }

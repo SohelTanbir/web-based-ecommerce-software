@@ -1,0 +1,100 @@
+.category-main{
+    width: 100%;
+    padding: 2rem;
+}
+.category-main .row{
+    padding: 0;
+    align-items:flex-start;
+}
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .5rem;
+    border-bottom: .1rem solid #eee;
+}
+.category-header h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+}
+.category-header button{
+    display: block;
+    margin-left: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .5rem;
+    padding: .8rem 1.2rem;
+    background: #FF6000;
+}
+.category-btn{
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 1rem 1.5rem;
+    background: #465487;
+}
+.category-container .row{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.single-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ddd;
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+    color: #585858;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    min-width: 15rem;
+}
+.single-category span{
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+
+
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .category-main {
+        width: 98%; 
+    }
+ }
+ /*medium device*/
+ @media all and (max-width:768px){
+   .category-main .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .category-container {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .add-new-category {
+        width: 100%;
+    }
+    .category-main h2 {
+        font-size: 2rem;
+    }
+    .category-header button {
+        font-size: 1.4rem;
+    }
+ }

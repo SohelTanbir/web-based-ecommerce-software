@@ -1,0 +1,47 @@
+.sideBar{
+    background:#FF6000;
+    min-height: 100vh;
+    height:auto;
+    padding:3rem 2rem;
+}
+.sideBar ul li{
+    margin-bottom:1.5rem;
+    cursor: pointer;
+}
+.sideBar ul li a{
+    color:#fff;
+}
+.sidebar-with-text {
+    width: 22rem;
+    position: sticky;
+    top: 6rem;
+    left: 0;
+}
+.sidebar-without-text{
+    width: 2rem;
+    display:none;
+}
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+   /*sidebar*/
+   .sidebar-with-text {
+        display: none;
+    }
+   .sidebar-without-text {
+        display: block;
+    }
+}
+/*medium device*/
+@media all and (max-width:768px){
+   
+}
+/*small device*/
+@media all and (max-width:576px){
+    
+}

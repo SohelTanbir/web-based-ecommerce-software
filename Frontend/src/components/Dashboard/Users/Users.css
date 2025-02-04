@@ -1,0 +1,111 @@
+.users-main{
+          width: 100%;
+          padding: 2rem;
+}
+
+.users-header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: .5rem;
+          border-bottom: .1rem solid #eee;
+}
+.users-header h2{
+          font-size: 2.5rem;
+          font-weight: 600;
+          color: #000;
+}
+ .users-header button{
+          display: block;
+          margin-left: auto;
+          font-size: 1.6rem;
+          font-weight: 500;
+          border: none;
+          outline: none;
+          color: #fff;
+          cursor: pointer;
+          border-radius: .5rem;
+          padding: .8rem 1.2rem;
+          background: #FF6000;
+}
+.users-btn{
+          font-size: 1.6rem;
+          font-weight: 500;
+          border: none;
+          outline: none;
+          color: #fff;
+          cursor: pointer;
+          border-radius: .3rem;
+          padding: 1rem 1.5rem;
+          background: #465487;
+}
+.users-main h2{
+          font-size: 2rem;
+          font-weight: 500;
+          color: #000;
+}
+.users-container{
+          width: 100%;
+          padding:2rem 0 ;
+}
+.users-container table{
+          width: 100%;
+          text-align: center;
+          border-collapse: collapse;
+}
+.users-container tr,td{
+          font-size: 1.6rem;
+          font-weight: 400;
+          padding:1rem .5rem;
+ }
+.users-container th{
+          font-weight: 600;
+          color: #160a5a;
+          text-transform: capitalize;
+          background: #c2c2c2;
+          padding:.5rem 0;
+}
+.users-container tr:nth-child(odd){
+          background: #f1f1f1;
+}
+.users-container table img{
+          width: 5rem;
+          height: 5rem;
+          object-fit: cover;
+          border-radius: .3rem;
+}
+.users-container .action-btn{
+          font-size: 1.8rem;
+          color: #160a5a;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background: transparent;
+}
+.users-container .action-btn:hover{
+          color: #4528eb;
+}
+.users-container .delete-btn:hover{
+          color: red;
+}
+      /*
+      ------------------------------------------------------------
+      --------- Responsive CSS For Contact Page -------------
+      ------------------------------------------------------------
+      */
+      /*large device*/
+      @media all and (max-width:991px){
+          .users-main {
+                    overflow:scroll;
+                }
+                .users-container table {
+                    width: 70rem;
+                }
+       }
+       @medial all and (max-width:575px){
+        /*input file*/
+    .signup-file-input {
+        top: 51%;
+    }
+    }
+      

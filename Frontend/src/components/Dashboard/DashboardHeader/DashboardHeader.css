@@ -1,0 +1,41 @@
+.dashboradHeader {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.dashboard-header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    background: #fff;
+    box-shadow: .1rem .1rem .5rem #d1c5e3;
+    z-index: 10;
+}
+.dashboard-header .logo a{
+    color: #000000!important;
+}
+
+.activeUser {
+    display: flex;
+    font-weight: 500;
+    justify-content: flex-end;
+}
+.activeUser .user-photo{
+    margin:0 1rem;
+    cursor: pointer;
+}
+.activeUser p{
+    margin-bottom: 0!important;
+}
+.user-photo img{
+    width:3rem;
+    height:3rem;
+    line-height: 3rem;
+    border-radius:50%;
+    object-fit: cover;
+}

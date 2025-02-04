@@ -1,0 +1,62 @@
+.update-order-main{
+    width: 80%;
+    padding: 2rem;
+}
+.update-order-main .row{
+    align-items: flex-start;
+}
+.order-info{
+    width: 70%;
+}
+
+.shipping{
+    margin-bottom: 3rem;
+}
+.shipping h2,
+.order h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: .5rem;
+}
+.shipping h4,
+.order h4{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.shipping h4 span,
+.order h4 span{
+    font-weight: 600;
+}
+.update-status{
+    width: 30%;
+}
+.update-orders-container{
+    width: 100%;
+    padding:2rem 0 ;
+}
+.update-status form label{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: .5rem;
+}
+.update-status form, select{
+    width: 100%;
+}
+.update-status button{
+    display: block;
+    margin-left: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 1rem 1.5rem;
+    background: #465487;
+}

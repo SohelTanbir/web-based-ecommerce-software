@@ -1,0 +1,57 @@
+#Right-menu.offcanvas{
+       max-width: 28rem;
+       width:90%;
+}
+#Right-menu .offcanvas-header{
+       background-color: #FF6000;
+}
+#Right-menu  .login-user{
+       display: flex;
+       align-items: center;
+       padding: 1rem .5rem;
+}
+
+#Right-menu  .login-user img{
+       width: 4rem;
+       height: 4rem;
+       line-height: 4rem;
+       border-radius: 50%;
+       object-fit: cover;
+       background: #fff;
+       padding: .1rem;
+}
+#Right-menu  .login-user h4{
+       font-size: 1.8rem;
+       font-weight: 500;
+       color: #fff;
+       padding-left: 1rem;
+}
+#Right-menu .offcanvas-body{
+       padding: 0;
+}
+
+#Right-menu .sidebar-right-menu li{
+       padding: 1rem 2rem;
+}
+
+#Right-menu .sidebar-right-menu li a{
+       display: flex;
+       font-size: 1.6rem;
+       font-weight: 500;
+       color: #000;
+       transition: .3s ;
+}
+#Right-menu .sidebar-right-menu li a .left-icon{
+       padding-right: .8rem;
+       color: #FF6000;
+}
+#Right-menu .sidebar-right-menu li:hover{
+       background: #ee5d06f2;
+}
+#Right-menu .sidebar-right-menu li:hover a{
+       color: #fff;
+       transform: translateX(.3rem);
+}
+#Right-menu .sidebar-right-menu li:hover a .left-icon{
+       color: #fff;
+}

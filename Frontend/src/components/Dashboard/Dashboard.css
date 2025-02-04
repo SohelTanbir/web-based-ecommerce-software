@@ -1,0 +1,67 @@
+.dashboard-main{
+    display: flex;
+    justify-content: space-between;
+}
+.logout p{
+    padding-left: 1rem;
+    color:#dfdfdf;
+    cursor: pointer;
+}
+.main-part {
+    padding: 2rem;
+    width: 100%;
+}
+.total-orders,
+.total-blog,
+.total-admin,
+.total-review{
+    width: 22rem;
+    padding:2rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-size:2rem;
+    color:#fff;
+    margin-bottom: 2rem;
+}
+.statistics h4, h5{
+    font-weight: 400;
+}
+.statistics-item{
+    cursor: pointer;
+}
+.total-orders{
+    background:tomato;
+}
+.total-blog{
+    background:blue;
+}
+.total-admin{
+    background:#40407a;
+}
+.total-review{
+    background:orange;
+}
+
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+   /*dashboard main part*/
+   .main-part {
+    width: 98%;
+}
+}
+/*medium device*/
+@media all and (max-width:768px){
+   
+}
+/*small device*/
+@media all and (max-width:576px){
+    .main-part .row {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,14 @@
+.loader{
+
+    left: 0;
+    top: 8%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999999999999999;
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    overflow: hidden;
+  }

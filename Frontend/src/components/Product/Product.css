@@ -1,0 +1,49 @@
+#product{
+    width: 100%;
+}
+.product-heading{
+    text-align: center;
+    padding:3rem 0;
+}
+.product-heading h2{
+    position: relative;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-bottom:1rem;
+}
+.product-heading h2::before{
+    content: "";
+    position: absolute;
+    left:35%;
+    top:35%;
+    width:7rem;
+    height:.2rem;
+    background:red;
+}
+.product-heading h2::after{
+    content: "";
+    position: absolute;
+    right:35%;
+    top:35%;
+    width:7rem;
+    height:.2rem;
+    background:red;
+}
+.pagination-container{
+    width: 100%;
+    margin: 3rem 0 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-container .page-item  .page-link{
+   font-size: 1.6rem;
+   padding: 1rem 1.5rem;
+}
+
+
+.active>.page-link, .page-link.active{
+    background:#FF6000;
+    border: .1rem solid transparent;
+}

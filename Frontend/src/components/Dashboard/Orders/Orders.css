@@ -1,0 +1,74 @@
+.orders-main{
+    width: 100%;
+    padding: 2rem;
+}
+.orders-main > h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: .3rem;
+    border-bottom: .1rem solid #eee;
+}
+.orders-container{
+    width: 100%;
+    padding:2rem 0 ;
+}
+.orders-container table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.orders-container tr,td{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding:1rem .5rem;
+}
+.orders-container th{
+    font-weight: 600;
+    color: #160a5a;
+    text-transform: capitalize;
+    background: #c2c2c2;
+    padding:.5rem 0;
+}
+.orders-container tr:nth-child(odd){
+    background: #f1f1f1;
+}
+.orders-container table img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.orders-container .action-btn{
+    font-size: 1.8rem;
+    color: #160a5a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+.orders-container .action-btn:hover{
+    color: #4528eb;
+}
+.orders-container .delete-btn:hover{
+    color: red;
+}
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .orders-main {
+        width: 98%; 
+    }
+ }
+ /*medium device*/
+ @media all and (max-width:768px){
+    .orders-main {
+        overflow:scroll;
+    }
+    .orders-container table {
+        width: 70rem;
+    }
+ }

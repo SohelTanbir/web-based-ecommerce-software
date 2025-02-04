@@ -1,0 +1,38 @@
+.preview-photo{
+          width: 100%;
+}
+.preview-photo img{
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+          object-fit: cover;
+          user-select: none;
+          padding: .1rem;
+          background-color: #fff;
+}
+/*input file*/
+.signup-file-input {
+    width: 40%;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+    left: 46%;
+    top: 70%;
+}
+.file_input_label {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 15px;
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: #FF6000;
+          padding: 1rem 1.2rem;
+          text-align: center;
+          background: transparent;
+          border:.1rem solid #FF6000;
+          width: 95%;
+          margin: -1.8rem auto 0;
+}

@@ -1,0 +1,77 @@
+.shiping-form{
+    width: 100%;
+}
+.shiping-form{
+    width:60%;
+    margin:1% auto 0;
+    padding: 2rem 1.5rem;
+}
+.shiping-form h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #817f7f;
+    margin-bottom: 1rem;
+}
+.shiping-form input, textarea{
+    width:100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+    outline: none;
+    padding:1rem 1.5rem;
+    margin-bottom: 2.5rem;
+    border: .1rem solid #eee;
+    transition: .5s ease-in;
+}
+.shiping-form input:focus{
+    border: .1rem solid #550597;
+}
+.shiping-form textarea:focus{
+    border: .1rem solid #550597;
+}
+.shiping-form  textarea{
+    height: 15rem;
+    resize: none;
+}
+.shiping-form  ::placeholder{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+.shiping-form  button{
+    display: block;
+    margin-left: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 1rem 1.5rem;
+    background: #FF6000;
+}
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .shiping-form{
+        width: 70%;
+    }
+}
+/*medium device*/
+@media all and (max-width:768px){
+    .shiping-form{
+        width: 80%;
+    }
+}
+/*small device*/
+@media all and (max-width:576px){
+    .shiping-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+#cart-fixed{
+          position: fixed;
+          top: 45%;
+          right: 0rem;
+          width: 7rem;
+          color: #fff;
+          background: #465487;
+          border-radius: .5rem;
+          text-align: center;
+          z-index: 100;
+          overflow: hidden;
+          cursor: pointer;
+          user-select: none;
+}
+#cart-fixed a{
+          color: #fff;
+}
+.cart-icon-fixed {
+          font-size: 1.4rem;
+          padding-top:.4rem;
+}
+.cart-items-fixed span{
+          font-size: 1.4rem;
+          font-weight: 400
+}
+.cart-price-fixed{
+          font-size: 1.4rem;
+          padding:.4rem .5rem ;
+          background: #FF6000;
+}

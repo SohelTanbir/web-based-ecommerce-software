@@ -1,0 +1,131 @@
+.order-status{
+    width: 100%;
+}
+.order-status-stepper{
+    width: 70%;
+    margin: 5% auto;
+}
+.order-status-stepper h4{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #817f7f;
+    text-align: center;
+}
+.order-status-stepper .order-id{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #817f7f;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.order-steps{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+}
+.single-step{
+    position: relative;
+    width: 25%;
+}
+
+.single-step::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: .3rem;
+    top: 25%;
+    left: 45%;
+    z-index: -1;
+    background: #817f7f; 
+}
+.single-step .circle {
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    border-radius: 50%;
+    border: .3rem solid #817f7f;
+    background: #fff;
+}
+.single-step:last-child:after{
+    width: 0;
+}
+.step-title{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #817f7f;
+    text-align: center;
+}
+.check-icon {
+    position: absolute;
+    top: 7%;
+    left: 46.5%;
+    color: #817f7f;
+}
+.single-step.active .circle{
+    background: green;
+    border: 0;
+}
+.single-step.active .check-icon{
+    color: #fff;
+}
+.order-status .btn{
+    display: block;
+    margin: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 1rem 2rem;
+    background: #465487;
+}
+
+
+
+
+
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*medium device*/
+@media all and (max-width:806px){
+    .order-status-stepper {
+        width: 98%;
+    }
+    .check-icon {
+        top: 6%;
+        left: 45%;
+    }
+}
+/*small device*/
+@media all and (max-width:576px){
+    .single-step::after {
+        top: 19%;
+    }
+    .order-status-stepper h4 {
+        font-size:2.5rem;
+        margin-bottom: 2rem;
+    }
+    .order-status-stepper {
+        margin: 10% auto;
+    }
+}
+/*Extra small device*/
+@media all and (max-width:380px){
+    .step-title {
+        font-size: 1.2rem;
+        padding: .5rem 0;
+    }
+    .order-status-stepper h4 {
+        margin-bottom: 1rem;
+    }
+    .check-icon {
+        top: 4%;
+        left: 42%;
+    }
+}

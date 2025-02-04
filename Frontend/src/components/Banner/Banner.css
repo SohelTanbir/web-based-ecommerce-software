@@ -1,0 +1,77 @@
+.banner{
+    width: 100%;
+    padding: 1rem .5rem 1rem;
+}
+.banner .row{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.banner .categories{
+    width: 20%;
+}
+.banner .categories h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000;
+    padding: .3rem;
+}
+.banner .categories h3 .category-icon{
+    margin-right:.5rem;
+    font-size: 1.6rem;
+}
+.categori-items{
+    font-size: 1.4rem;
+}
+.categori-items li{
+    margin-top: .8rem;
+    transition: .2s;
+    cursor: pointer;
+    user-select: none;
+}
+.categori-items li.active-category{
+    font-weight: 700;
+    transform: translateX(.8rem);
+    color: #FF6000;
+    text-decoration: underline;
+}
+.categori-items li:hover {
+    transform: translateX(.8rem);
+}
+.categori-items li a{
+    font-size: 1.6rem;
+    color: rgb(58, 58, 58);
+}
+.categori-items input{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.categori-items span.category{
+    margin-left:.5rem;
+    color: #969696;
+}
+.banner-slider{
+    width: 80%;
+    padding: 0 2rem;
+}
+.banner-slider img{
+    max-width: 100%;
+    width: 100%;
+}
+
+/*
+------------------------------------------------------------
+--------- Responsive Styles For Banner Section ---------
+------------------------------------------------------------
+*/
+
+/*Smll device*/
+@media all and (max-width: 768px){
+    .banner .categories {
+        display: none
+    }
+    .banner-slider {
+        width: 100%;
+        margin-bottom: 3rem;
+        padding: 0;
+    }
+}

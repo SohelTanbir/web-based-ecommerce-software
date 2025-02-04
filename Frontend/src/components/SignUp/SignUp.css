@@ -1,0 +1,155 @@
+.SignUp{
+    width:100%;
+}
+.SignUpBox{
+    position: relative;
+    width:30%;
+    margin:8% auto ;
+    background-image:linear-gradient(to right, #A5F8CA, #9EDFF1);
+    padding:3rem 3rem;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 0 .2rem #a0a0a0;
+    overflow: hidden;
+}
+.SignUpBox h3{
+    color:#fff;
+    font-size:2.5rem;
+    margin-bottom:3rem;
+    font-weight:500;
+}
+.SignUpBox input{
+    border:none;
+    outline:none;
+    padding:1.2rem 2rem;
+    width:100%;
+    margin-top:2rem;
+    border-radius:.5rem;
+    position:relative;
+}
+.SignUpBox .signupBtn{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:1rem 1.5rem;
+    background:#FF6000; 
+    color:#fff;
+    border-radius:1rem;
+    font-weight:700;
+    font-size:1.6rem;
+}
+.SignUpBox .signupBtn:hover{
+    box-shadow:1rem 1rem 2rem #cccccc;
+}
+.SignUpBox .loginBtn span{
+    margin-left:.5rem;
+}
+/*login with facebook and google account style*/
+.loginOption{
+    padding: 2rem 0;
+}
+.loginOption button{
+    width:47%;
+    border: none;
+    outline: none;
+    padding:1rem;
+    margin-right:3%;
+    border-radius:.5rem;
+    color:#f5f5f5;
+    font-weight: 700;
+    margin-bottom:1.5rem;
+}
+
+.loginOption a{
+    font-size:1.4rem;
+    color: #000;
+}
+.loginOption a span{
+    color: #FF6000;
+}
+.loginOption a:hover{
+    text-decoration: underline;
+}
+.actionDisplay{
+    width:24%;
+    position: absolute;
+    text-align: center;
+    margin-top:2%;
+    left:38%;
+    background:#ebebeb;
+    padding:1rem;
+    border-radius:.5rem;
+}
+.preview-photo{
+    width: 100%;
+}
+.preview-photo img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    user-select: none;
+    padding: .1rem;
+    background-color: #fff;
+}
+/*input file*/
+.inputBox input[type="file"] {
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+    left: 25%;
+    top: 56%;
+}
+.file_input_label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #FF6000;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    background: transparent;
+    border:.1rem solid #FF6000;
+    width: 95%;
+    margin: -1.8rem auto 0;
+}
+/*
+------------------------------------------------------------
+------------ Responsive CSS Login Page  ----------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .SignUpBox{
+        width:45%;
+    }
+}
+
+/*medium device*/
+@media all and (max-width:768px){
+    .SignUpBox{
+        width:65%;
+    }
+    .SignUpBox {
+        padding: 1.5rem;
+    }
+}
+
+/*small device*/
+@media all and (max-width:576px){
+    .SignUpBox{
+        width:85%;
+        padding: 1rem;
+    }
+}
+/*extra small device*/
+@media all and (max-width:480px){
+    .SignUpBox{
+        width:100%;
+    }
+}

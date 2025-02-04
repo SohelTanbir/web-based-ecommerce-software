@@ -1,0 +1,84 @@
+.product-main {
+    width: 100%;
+    padding: 2rem;
+}
+.product-main > h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: .5rem;
+    border-bottom: .1rem solid #eee;
+}
+.products-container{
+    width: 100%;
+    padding:2rem 0 ;
+}
+.products-container table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.products-container th, tr,td{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding:.5rem;
+}
+.products-container th{
+    font-weight: 600;
+    color: #160a5a;
+    text-transform: capitalize;
+    background: #dadada;
+}
+.products-container tr:nth-child(odd){
+    background: #f1f1f1;
+}
+.products-container table img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.products-container .action-btn{
+    font-size: 1.8rem;
+    color: #160a5a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+.products-container .action-btn:hover{
+    color: #4528eb;
+}
+.products-container .delete-btn:hover{
+    color: red;
+}
+h4.no-product{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #817f7f;
+    margin-bottom: 5rem;
+}
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:991px){
+    .product-main {
+        width: 98%; 
+    }
+ }
+ /*medium device*/
+ @media all and (max-width:768px){
+    .product-main {
+        overflow:scroll;
+    }
+    .products-container table {
+        width: 70rem;
+    }
+ }

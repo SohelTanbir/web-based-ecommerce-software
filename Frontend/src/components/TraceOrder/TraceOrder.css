@@ -1,0 +1,67 @@
+.trace-order{
+    width: 100%;
+}
+.trace-order-form{
+    width:60%;
+    margin:5% auto 0;
+    padding: 2rem 1.5rem;
+}
+.trace-order-form h4{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #817f7f;
+    text-align: center;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+.trace-order-form input{
+    width:100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+    outline: none;
+    transition: .5s ease-in;
+    padding:1rem 1.5rem;
+    margin-bottom: 2.5rem;
+    border: .1rem solid #eee;
+}
+.trace-order-form input:focus{
+    border: .1rem solid #550597;
+}
+.trace-order-form ::placeholder{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+.trace-order-form .trace-now-btn {
+    display: block;
+    margin-left: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    background: #FF6000;
+}
+
+/*
+------------------------------------------------------------
+--------- Responsive CSS For Contact Page -------------
+------------------------------------------------------------
+*/
+/*medium device*/
+@media all and (max-width:768px){
+    .trace-order-form{
+        width:100%;
+    }   
+}
+/*small device*/
+@media all and (max-width:576px){
+    .trace-order-form h4 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}

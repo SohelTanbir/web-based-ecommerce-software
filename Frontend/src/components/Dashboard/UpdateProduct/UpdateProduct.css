@@ -1,0 +1,93 @@
+.update-product h2{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.product-update-form input,
+.submit-btn{
+    border: none;
+    outline:none;
+    margin-bottom:2.5rem;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-group {
+    width: 48%;
+}
+.product-update-form input,
+.product-update-form textarea,
+.product-update-form select{
+    width:100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+    outline: none;
+    padding:1rem 1.5rem;
+    margin-bottom: 2rem;
+    border: .1rem solid #eee;
+    transition: .5s ease-in;
+}
+.check-box{
+    width: 49%;
+}
+.mr-2p{
+    margin-right: 2%;
+}
+.product-update-form input:focus,
+.product-update-form textarea:focus,
+.product-update-form select:focus{
+    border: .1rem solid #550597;
+    transition: .5s;
+}
+.product-update-form textarea{
+    width: 100%;
+    height: 15rem;
+   resize: none;
+}
+.product-update-form::placeholder{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+.product-update-form label{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+.product-update-form input[type="file"]{
+    width: 100%;
+    padding: .7rem 1.5rem;
+}
+.product-update-form input[type="file"]::-webkit-file-upload-button{
+    border: none;
+    padding: .3rem 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    background: #465487;
+}
+.product-update-form button{
+        display: block;
+        margin-left: auto;
+        font-size: 1.6rem;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: .3rem;
+        padding: 1rem 1.5rem;
+        background: #465487;
+}
+.w-100{
+    width: 100%!important;
+}
+.preview-product-img{
+    width: 25rem;
+    height: 15rem;
+}
+.preview-product-img img{
+    width: 100%;
+    height:100%;
+}

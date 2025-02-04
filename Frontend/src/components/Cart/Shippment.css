@@ -1,0 +1,33 @@
+.shiping-form{
+    width: 85%;
+    padding:2rem 0;
+}
+.shiping-form h3{
+    margin-bottom:2rem;
+}
+.shiping-form input{
+    border:none;
+    outline: none;
+    padding:1.3rem 2rem;
+    width:85%;
+    margin-bottom:2rem;
+    border-radius:.5rem;
+}
+.shiping-form button{
+    background: #dfb839;
+    padding:.6rem 2rem;
+    border-radius:.5rem;
+}
+/*
+----------------------------------------------------
+--------------- Responsive CSS -------------------
+-----------------------------------------------------
+*/
+/*medium device*/
+@media all and (max-width:768px){
+    .shiping-form,
+    .shiping-form input{
+        width: 100%;
+    }
+
+}

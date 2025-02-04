@@ -1,0 +1,58 @@
+.search-box{
+    position: relative;
+}
+.search-box input, select{
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border: .1rem solid #e7e7e7;
+    color:#969696;
+}
+.search-box input{
+    position: relative;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+}
+.search-box select{
+    display: none;
+}
+.search-box .search-btn{
+    border: none;
+    outline: none;
+    padding: 1.3rem;
+    color: #ffffff;
+    background: #dfb839;
+}
+.search-box  .search-icon {
+    position: absolute;
+    right: 2rem;
+    top: 1.2rem;
+    font-size: 1.6rem;
+    color: #877373;
+}
+
+/*
+------------------------------------------------------------
+--------- Responsive Styles For Banner Section ---------
+------------------------------------------------------------
+*/
+
+/*Smll device*/
+@media all and (max-width: 768px){
+    .search-box {
+        width: 100%;
+        margin: auto;
+    }
+    .search-box form{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .search-box select{
+        width: 40%;
+        display: block;
+    }
+}

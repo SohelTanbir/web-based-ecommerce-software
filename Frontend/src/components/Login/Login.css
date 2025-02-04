@@ -1,0 +1,132 @@
+.login{
+    width:100%;
+}
+.loginBox{
+    width:30%;
+    margin:5% auto;
+    background-image:linear-gradient(to right, #A5F8CA, #9EDFF1);
+    padding:3rem 3rem;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 0 .2rem #a0a0a0;
+}
+.loginBox h3{
+    color:#fff;
+    font-size:2.5rem;
+    margin-bottom:3rem;
+    font-weight:500;
+}
+.loginBox input{
+    border:none;
+    outline:none;
+    padding:1.2rem 2rem;
+    width:100%;
+    margin-top:2rem;
+    border-radius:.5rem;
+    position:relative;
+}
+.loginBox .loginBtn{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:1rem 1.5rem;
+    background:#FF6000; 
+    color:#fff;
+    border-radius:1rem;
+    font-weight:700;
+    font-size:1.6rem;
+    margin-top: 2rem;
+}
+.loginBox .loginBtn:hover{
+    box-shadow:1rem 1rem 2rem #cccccc;
+}
+.loginBox .loginBtn span{
+    margin-left:.5rem;
+}
+.create-account span{
+    color:#FF6000;
+    font-weight: 500;
+}
+/*login with facebook and google account style*/
+.loginOption{
+    padding: 2rem 0;
+}
+.loginOption button{
+    width:47%;
+    border: none;
+    outline: none;
+    padding:1rem;
+    margin-right:3%;
+    border-radius:.5rem;
+    color:#f5f5f5;
+    font-weight: 700;
+    margin-bottom:1.5rem;
+}
+.loginOption .facebook{
+    background: #1B74E4;
+}
+.loginOption .google{
+    background: #34A853;
+}
+.loginOption h4{
+    color:#550597;
+    margin-bottom:1rem;
+}
+.loginOption a{
+    font-size:1.4rem;
+}
+.loginOption a:hover{
+    text-decoration: underline;
+}
+.login .forgot-password{
+    width: 100%;
+    text-align: right;
+}
+.login .forgot-password span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #818181;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.login .forgot-password span:hover{
+    text-decoration: underline;
+}
+/*
+------------------------------------------------------------
+------------ Responsive CSS Login Page  ----------------
+------------------------------------------------------------
+*/
+/*large device*/
+@media all and (max-width:1199px){
+    .loginBox{
+        width:40%;
+    }
+}
+/*large device*/
+@media all and (max-width:991px){
+    .loginBox{
+        width:45%;
+    }
+}
+
+/*medium device*/
+@media all and (max-width:768px){
+    .loginBox{
+        width:55%;
+    }
+}
+
+/*small device*/
+@media all and (max-width:576px){
+    .loginBox{
+        width:75%;
+    }
+}
+/*extra small device*/
+@media all and (max-width:480px){
+    .loginBox{
+        width:95%;
+    }
+}

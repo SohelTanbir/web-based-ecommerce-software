@@ -1,0 +1,20 @@
+.review{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top:.1rem solid #eee 
+}
+.review h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #dfb839;
+}
+.review h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.review p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #818181;
+}
