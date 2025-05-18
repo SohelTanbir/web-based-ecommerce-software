@@ -57,7 +57,7 @@ Create a new file at: app/redux/api/interviewApi.js
 
 Add this boilerplate:
 
-```js
+<pre> ```
 import { api } from './apiSlice';
 
 export const interviewApi = api.injectEndpoints({
@@ -100,7 +100,7 @@ const InterviewList = () => {
 Use it like this in a component:
 
 const [addInterview] = useAddInterviewMutation();
-
+``` </pre>
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
