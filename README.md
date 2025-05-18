@@ -100,7 +100,7 @@ const InterviewList = () => {
 Use it like this in a component:
 
 const [addInterview] = useAddInterviewMutation();
-```js
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
